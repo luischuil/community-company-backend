@@ -22,7 +22,7 @@ module.exports = function () {
                 date: faker.date.past(),
                 title: faker.lorem.sentence(),
                 summary: faker.lorem.paragraph(),
-                description: faker.lorem.paragraphs(),
+                description: faker.lorem.paragraphs(10),
                 likes: getRandomId(100),
                 comments: getRandomId(25),
                 userId: getRandomId(25)
